@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Recycle Track</string>
+    <string name="enter_your_waste">Enter your waste:</string>
+    <string name="no_recycled_bags">No Recycled Bags</string>
+    <string name="no_general_bags">No General Bags</string>
+    <string name="submit">Submit</string>
+    <string name="number">Number</string>
+    <string name="number1">Number</string>
+    <string name="dashboard_image">dashboard image</string>
+    <string name="recycled">Recycled</string>
+    <string name="countRecycled">0</string>
+    <string name="general">General</string>
+    <string name="countGeneral">0</string>
+    <string name="select_date">Select Date</string>
+    <string name="bin_collection">Bin Collection:</string>
+    <string name="add_to_calendar">Add to calendar</string>
+</resources>

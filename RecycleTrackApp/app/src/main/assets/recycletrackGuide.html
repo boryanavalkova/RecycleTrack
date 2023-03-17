@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Page Title</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="m-3">
+    <h1 class="text-center">Guide</h1>
+
+    <p>Recycle Track's purpose is to provide a way to lead a healthier and eco-friendly lifestyle. This manual will walk you through the app and provide guidance.</p>
+
+    <h2>Log in</h2>
+    <p>When the app launches you are asked to login. The login screen is a simple, flat design form containing 2 input fields and a login button. For the purpose of this demo the following data is provided:</p>
+    <ul class="list-group">
+        <li class="list-group-item">Username: eee</li>
+        <li class="list-group-item">Password: eee</li>
+    </ul>
+    <p>By default you are taken the log waste screen as a first time sign-in. The idea of this is to directly remind the user to enter their daily waste disposal.</p>
+
+    <h2>Navigation screens</h2>
+    <p>At the bottom of the app once you log in, you can see 4 navigation items:</p>
+    <ul class="list-group">
+        <li class="list-group-item"><a href="#dashboard">Dashboard</a></li>
+        <li class="list-group-item"><a href="#logwaste">Log Waste</a></li>
+        <li class="list-group-item"><a href="#analytics">Analytics</a></li>
+        <li class="list-group-item"><a href="#help">Help</a></li>
+    </ul>
+
+    <div class="mt-4 d-grid gap-5">
+        <div id="dashboard" class="mt-3 p-2 bg-light border">
+            <h2>Dashboard</h2>
+            <p>The dashboard represents an overview of the system. The user can see their overall recycled and general waste. There is also an option to select a date as a reminder. After selecting the date, the user will be able to click a button and create an event in their calendar app.</p>
+            <div class="alert alert-warning" role="alert">
+                Note: If a calendar app is not available or synced, a notification bubble will pop-up saying so.
+            </div>
+        </div>
+
+        <div id="logwaste" class="mt-3 p-2 bg-light border">
+            <h2>Log waste</h2>
+            <p>The log waste screen contains a form in which the user can enter submit their waste on daily/monthly basis. The input must be numeric and the data is validated and returns a message of success/failure. The UI is straightforward and it contains 2 input fields and 1 button.</p>
+            <div class="alert alert-warning" role="alert">
+                Note: this screen opens first when you are a newly logged-in user. In this way Recycle Track nicely reminds to enter any waste disposal data.
+            </div>
+        </div>
+
+        <div id="analytics" class="mt-3 p-2 bg-light border">
+            <h2>Analytics</h2>
+            <p> The analytics screen contains a graph comparing the recycled and general waste. In this way the user can compare the amount of waste disposal and be more mindful.</p>
+            <div class="alert alert-info" role="alert">
+                Note: Recycle Track does not store any personal information, nor does require any. Only permission required is to allow app to send notifications.
+            </div>
+        </div>
+
+        <div id="help" class="mt-3 p-2 bg-light border">
+            <h2>Help</h2>
+            <p>The currently open screen. Contains a simple documented ment for the user in order to work with the app. It contains information about the functions available.</p>
+        </div>
+    </div>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+
+
+</div>
+</body>
+</html>
+

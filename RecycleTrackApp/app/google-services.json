@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "933868381675",
+    "firebase_url": "https://recycletrackapp-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "recycletrackapp",
+    "storage_bucket": "recycletrackapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933868381675:android:5bdf4b2d8fa350a5f125ae",
+        "android_client_info": {
+          "package_name": "com.example.recycletrackapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933868381675-ti9hk56ml5aho62fleejmgkafumqqb44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoREKna17oKlE1pRz7ZdvTzvybZRZRnyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933868381675-ti9hk56ml5aho62fleejmgkafumqqb44.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
